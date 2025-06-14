@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<title>CONTROLE FILMES</title>
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h3 {
+        color: #FFD700;
+        margin-bottom: 20px;
+        animation: slidein 2s ease;
+    }
+
+    a {
+        text-decoration: none;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .button {
+        width: 30%;
+        min-width: 120px;
+        height: 50px;
+        border: none;
+        border-radius: 16px;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .button:hover {
+        background-color: #FFD700;
+        color: black;
+        transform: scale(1.05);
+    }
+
+    .button:focus {
+        outline: none;
+        background-color: #FFD700;
+        color: red;
+        border-radius: 100px;
+    }
+
+    .txtarea {
+        width: 95%;
+        height: 150px;
+        background-color: #111;
+        color: white;
+        border: 2px solid #FFD700;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        resize: none;
+    }
+
+    .n-vendas {
+        margin: 20px auto 10px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #FFD700;
+        animation: slidein 2s ease;
+    }
+
+    @keyframes slidein {
+        from { margin-left: 100%; opacity: 0; }
+        to { margin-left: 0%; opacity: 1; }
+    }
+</style>
+</head>
+
+<body>
+
+<h3>CONTROLE FILMES FLIX</h3>
+
+<!-- Botões dos clientes -->
+<a href="https://newtech1980.github.io/FlixGratis/Carlos.html">
+    <button class="button">CARLOS</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/Joao66.html">
+    <button class="button">JOAO</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/newCliente1.html">
+    <button class="button">CLAUDIO</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/Erica.html">
+    <button class="button">ERICA</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/Ednei.html">
+    <button class="button">EDNEIA</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/Jonathan.html">
+    <button class="button">JONATHAN</button>
+</a>
+
+<a href="https://newtech1980.github.io/FlixGratis/bahiaSueli.html">
+    <button class="button">OUTRO</button>
+</a>
+
+<!-- Área de vendas -->
+<div class="n-vendas">Vendas da semana</div>
+
+<textarea class="txtarea" placeholder="Anote aqui suas vendas...">
+VENDAS DO DIA 23/03/2024
+SUELI:
+EDNEIA:
+JONATHAN:
+ERICA:
+</textarea>
+
+</body>
+</html>
